@@ -12,3 +12,5 @@ In this document, I will not address the scenario of the proxy usage – when th
 
 On the contrary, I will show a way to stop active TCP connection overtaking without any encryption by combining TCP with Blockchain technology. In order to be able to do so, I will need to add another algorithm to the mash. It is called **Diffie-Hellman-Merkle algorithm**. It’s beauty is that encryption key or a session key is created over totally untrusted channel, meaning, it can be done in clear text.
 
+![Blockchain](https://raw.githubusercontent.com/kesem-io/tcp-on-blockchain/master/blocks.png)
+
